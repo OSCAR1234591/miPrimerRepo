@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9C6578E7-E4FE-79BB-1635-F363CC1E80DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proyecto", "proyecto", "{4D54B0EB-0661-D127-4E56-B86C85ABE931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "probando", ".github\proyecto\probando.csproj", "{EF5A1933-6A71-58B2-CC06-B0A73110E12D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5A1933-6A71-58B2-CC06-B0A73110E12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5A1933-6A71-58B2-CC06-B0A73110E12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5A1933-6A71-58B2-CC06-B0A73110E12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5A1933-6A71-58B2-CC06-B0A73110E12D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D54B0EB-0661-D127-4E56-B86C85ABE931} = {9C6578E7-E4FE-79BB-1635-F363CC1E80DD}
+		{EF5A1933-6A71-58B2-CC06-B0A73110E12D} = {4D54B0EB-0661-D127-4E56-B86C85ABE931}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8EF36B7-5DAF-436C-9DF0-34227B075A65}
+	EndGlobalSection
+EndGlobal
